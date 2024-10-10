@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #0cab73;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #ea873c;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* User List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2196F3;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #0b7dda;
+}
+
+a.add-user {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+a.add-user:hover {
+    background-color: #0b7dda;
+}
+
+/* Delete Confirmation Button */
+form button.confirm-delete {
+    background-color: #f44336;
+}
+
+form button.confirm-delete:hover {
+    background-color: #e53935;
+}
